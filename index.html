@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>dynamic resume</title>
+</head>
+<body>
+    <form id="uniqueName">
+        
+        <fieldset>
+            <legend>personal info:</legend>
+            <label for="userUrl">UserUrlData</label>
+            <input type="text" id="userUrl" name="userUrl" required>
+            <label for="name">name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="contect">contect</label>
+            <input type="number" id="number" name="number" required>
+            <label for="dp">profile pic</label>
+            <input type="file" id="dp" name="profilepic" accept="image/*" required>
+            
+        </fieldset>
+        <fieldset>
+            <legend>skills:</legend>
+            <label for="skills">skills</label>
+            <textarea name="skills" id="skills"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>education:</legend>
+            <label for="education">education</label>
+            <textarea name="education" id="education"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>experience:</legend>
+            <label for="experience">experience</label>
+            <textarea name="experience" id="experience"></textarea>
+        </fieldset>
+        <button type="submit" id="btn">generate resume below</button>
+      
+    </form>
+    <div id="resumeOutput">
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

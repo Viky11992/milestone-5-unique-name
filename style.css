@@ -1,0 +1,94 @@
+body{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: grey;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+#uniqueName{
+
+    margin: auto;
+    border-radius: 20px;
+    max-width: 700px;
+    padding: 20px;
+    background-color: rgb(0, 39, 39);
+    box-shadow: 10px 10px 20px 5px rgb(0,0,0,0.9);
+    
+}
+fieldset{
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-bottom: 20px;
+    background-color: rgb(12, 71, 71);
+    color: rgb(255, 255, 255);
+    
+}
+legend{
+    font-weight: 600;
+    font-size: 25px;
+
+    
+}
+label{
+   display: block;
+   margin-top: 5px;
+   color:rgb(83, 83, 5);
+   background-color:rgb(12, 71, 71);
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   letter-spacing: 1.5px;
+
+}
+
+input, textarea{
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.938);
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 70%;
+    color:rgb(0, 39, 39); ;
+
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 8px;
+    background-color: rgb(15, 64, 199);
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    border: none;
+
+}
+button:hover{
+    background-color: rgb(4, 100, 36);
+    color: white;
+}
+#resumeOutput{
+    margin: auto;
+    border-radius: 20px;
+    max-width: 700px;
+    padding: 20px;
+    background-color: rgb(0, 39, 39);
+    box-shadow: 10px 10px 20px 5px rgb(0,0,0,0.9);
+    color: white;
+    
+}
